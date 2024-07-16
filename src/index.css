@@ -51,7 +51,7 @@ button {
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
-  background-color: rgb(32, 33, 35, 1);
+  background-color: #005E8F;
   overflow: auto;
   transition: all 0.3s ease;
 }
@@ -76,7 +76,7 @@ button {
 }
 
 .sidebar-header:hover {
-  background-color: #2b2c2f;
+  background-color: #124076;
 }
 
 .sidebar-history {
@@ -88,9 +88,9 @@ button {
 .sidebar-history p {
   position: sticky;
   top: 0;
-  background-color: rgb(32, 33, 35);
+  background-color: #005E8F;
   padding: 0.4rem;
-  color: #8e8fa1;
+  color: #fff;
   font-size: 0.8rem;
   font-weight: 600;
   z-index: 1;
@@ -112,12 +112,6 @@ button {
   padding: 0 5px;
   left: calc(100% - 50px);
   border-radius: 0.3rem;
-  background: linear-gradient(
-    to right,
-    rgba(0, 0, 0, 0),
-    #202123 100%,
-    rgba(0, 0, 0, 0)
-  );
   pointer-events: none;
   z-index: 1;
 }
@@ -139,7 +133,7 @@ button {
 .sidebar li:hover,
 .sidebar-info-upgrade:hover,
 .sidebar-info-user:hover {
-  background-color: #343541;
+  background-color: #124076;
   border-radius: 0.3rem;
   cursor: pointer;
 }
@@ -155,6 +149,7 @@ button {
   height: 100vh;
   justify-content: space-between;
   align-items: center;
+  background-color: #124076;
   padding: 1rem;
   position: relative;
   overflow: hidden;
@@ -181,14 +176,16 @@ button {
   padding: 1rem;
   margin: 1rem 0;
   border-radius: 0.3rem;
+  color: black;
 }
 
 .main-header li:nth-child(odd) {
-  background-color: unset;
+  background-color: #005E8F;
 }
 
 .main-header li:nth-child(even) {
-  background-color: #444655;
+  background-color: unset;
+  color:black
 }
 
 .main-header img:not(:nth-child(even)) {
@@ -247,7 +244,7 @@ button {
   border-radius: 0.3rem;
   display: flex;
   align-items: center;
-  background-color: #404150;
+  background-color: #005E8F;
   box-shadow:
     rgb(0, 0, 0, 0.05) 0 3.3rem 3.4rem,
     rgb(0, 0, 0, 0.05) 0 -0.7rem 1.8rem,
@@ -261,7 +258,7 @@ button {
   height: 3rem;
   font-size: 1rem;
   padding-right: 1rem;
-  background-color: #404150;
+  background-color: #005E8F;
   outline: none;
   border: none;
 }

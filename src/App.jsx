@@ -201,7 +201,7 @@ function App() {
                 height={45}
                 alt="ChatGPT"
               />
-              <h1>Chat GPT Clone</h1>
+              <h1>Chat GPT</h1>
               <h3>How can I help you today?</h3>
             </div>
           )}
